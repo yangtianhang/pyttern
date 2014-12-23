@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '0.0.1'
+version = '0.0.2'
 
 setup(name='pyttern',
-      version='0.0.1',
+      version='0.0.2',
       description='common pattern for python',
       long_description='common pattern for python',
       classifiers=[],# Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
@@ -12,7 +12,7 @@ setup(name='pyttern',
       author='yangtianhang',
       author_email='tianhang.yang@gmail.com',
       url='https://github.com/yangtianhang/pyttern',
-      download_url='https://github.com/yangtianhang/pyttern/tarball/0.0.1',
+      download_url='https://github.com/yangtianhang/pyttern/tarball/0.0.2',
       license='MIT',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
       include_package_data=True,
